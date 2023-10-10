@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/docs",
+      "destination": "https://vercel.com/docs/projects/project-configuration#redirects"
+    },
+    {
+      "source": "/github/:username*",
+      "destination": "https://www.github.com/:username"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://github.com/hugginsio/vercel-url-shortener"
+    }
+  ]
+}
