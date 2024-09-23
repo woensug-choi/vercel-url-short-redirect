@@ -1,16 +1,20 @@
 {
   "redirects": [
     {
-      "source": "/docs",
-      "destination": "https://vercel.com/docs/projects/project-configuration#redirects"
+      "source": "/",
+      "destination": "https://woensug-choi.github.io/"
     },
     {
-      "source": "/github/:username*",
-      "destination": "https://www.github.com/:username"
+      "source": "/class",
+      "destination": "https://class.wschoi.com"
     },
     {
-      "source": "/(.*)",
-      "destination": "https://github.com/hugginsio/vercel-url-shortener"
+      "source": "/kmou",
+      "destination": "https://kmou.wschoi.com"
+    },
+    {
+      "source": "/lab",
+      "destination": "https://lab.wschoi.com"
     }
   ]
 }
